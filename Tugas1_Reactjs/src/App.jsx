@@ -116,7 +116,7 @@ function App() {
             <div className="col">
               <div className="card shadow-sm h-100">
                 <img
-                  src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f" // Gambar bisa diganti
+                  src="https://i.pinimg.com/736x/aa/bf/eb/aabfebe2deaf9b96bb7c75e5acb2792a.jpg"
                   className="card-img-top"
                   alt="Cover Buku"
                   style={{ height: "225px", objectFit: "cover" }}
@@ -144,7 +144,7 @@ function App() {
             <div className="col">
               <div className="card shadow-sm h-100">
                 <img
-                  src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c"
+                  src="https://i.pinimg.com/736x/ca/ba/1a/caba1a570a8a849cc9c4d6e472c84021.jpg"
                   className="card-img-top"
                   alt="Cover Buku"
                   style={{ height: "225px", objectFit: "cover" }}
@@ -172,7 +172,7 @@ function App() {
             <div className="col">
               <div className="card shadow-sm h-100">
                 <img
-                  src="https://images.unsplash.com/photo-1526318472351-bc6f63d20272"
+                  src="https://i.pinimg.com/736x/f2/79/bf/f279bfb96f51baaeeb5f6227fc7c3fa9.jpg"
                   className="card-img-top"
                   alt="Cover Buku"
                   style={{ height: "225px", objectFit: "cover" }}
@@ -200,56 +200,104 @@ function App() {
       </section>
 
       {/* team */}
-      <section id="team" className="py-5">
+      <section id="team" className="py-5 bg-light">
         <div className="container">
-          <h2 className="text-center mb-4">Tim Kami</h2>
-          <p className="text-center mb-5">
-            Kami adalah tim yang berdedikasi untuk memberikan pelayanan terbaik.
+          <h2 className="text-center mb-4 fw-bold">Kenalan dengan Tim Kami</h2>
+          <p className="text-center mb-5 text-muted">
+            Di balik layar, kami adalah tim yang penuh semangat, beragam
+            keahlian, dan satu tujuan: menciptakan solusi terbaik untukmu.
           </p>
 
           <div className="row row-cols-1 row-cols-md-3 g-4">
-            {/* Card Anggota Tim */}
+            {/* Card 1 */}
             <div className="col">
-              <div className="card h-100 text-center">
+              <div className="card h-100 text-center shadow-sm border-0">
                 <img
-                  src="https://via.placeholder.com/150"
-                  className="card-img-top rounded-circle mx-auto mt-4"
-                  alt="Anggota Tim"
-                  style={{ width: "100px", height: "100px" }}
+                  src="https://i.pinimg.com/736x/3d/07/8c/3d078c4b317d55fde720379d25cdd0e9.jpg"
+                  className="rounded-circle mx-auto mt-4"
+                  alt="Raka Saputra"
+                  style={{
+                    width: "100px",
+                    height: "100px",
+                    objectFit: "cover",
+                  }}
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Raka Saputra</h5>
-                  <p className="card-text">Frontend Developer</p>
+                  <h5 className="card-title fw-semibold">Raka Saputra</h5>
+                  <p className="card-text text-muted">Frontend Developer</p>
+                  <p className="small">
+                    Pecinta React dan desain pixel-perfect.
+                  </p>
+                  <div>
+                    <a href="#" className="text-secondary mx-2">
+                      <i className="bi bi-github"></i>
+                    </a>
+                    <a href="#" className="text-primary mx-2">
+                      <i className="bi bi-linkedin"></i>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
 
+            {/* Card 2 */}
             <div className="col">
-              <div className="card h-100 text-center">
+              <div className="card h-100 text-center shadow-sm border-0">
                 <img
-                  src="https://via.placeholder.com/150"
-                  className="card-img-top rounded-circle mx-auto mt-4"
-                  alt="Anggota Tim"
-                  style={{ width: "100px", height: "100px" }}
+                  src="https://i.pinimg.com/736x/06/ad/5e/06ad5e43ed9b9f239ac3e887d4f4e64a.jpg"
+                  className="rounded-circle mx-auto mt-4"
+                  alt="Salsa Amelia"
+                  style={{
+                    width: "100px",
+                    height: "100px",
+                    objectFit: "cover",
+                  }}
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Salsa Amelia</h5>
-                  <p className="card-text">UI/UX Designer</p>
+                  <h5 className="card-title fw-semibold">Salsa Amelia</h5>
+                  <p className="card-text text-muted">UI/UX Designer</p>
+                  <p className="small">
+                    Ahli dalam menciptakan antarmuka ramah pengguna.
+                  </p>
+                  <div>
+                    <a href="#" className="text-secondary mx-2">
+                      <i className="bi bi-github"></i>
+                    </a>
+                    <a href="#" className="text-primary mx-2">
+                      <i className="bi bi-linkedin"></i>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
 
+            {/* Card 3 */}
             <div className="col">
-              <div className="card h-100 text-center">
+              <div className="card h-100 text-center shadow-sm border-0">
                 <img
-                  src="https://via.placeholder.com/150"
-                  className="card-img-top rounded-circle mx-auto mt-4"
-                  alt="Anggota Tim"
-                  style={{ width: "100px", height: "100px" }}
+                  src="https://i.pinimg.com/736x/c3/64/6d/c3646d3d6d5a2cfa56feb70c736e19a3.jpg"
+                  className="rounded-circle mx-auto mt-4"
+                  alt="Dimas Arya"
+                  style={{
+                    width: "100px",
+                    height: "100px",
+                    objectFit: "cover",
+                  }}
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Dimas Arya</h5>
-                  <p className="card-text">Backend Developer</p>
+                  <h5 className="card-title fw-semibold">Dimas Arya</h5>
+                  <p className="card-text text-muted">Backend Developer</p>
+                  <p className="small">
+                    Spesialis API dan arsitektur data yang scalable.
+                  </p>
+                  <div>
+                    <a href="#" className="text-secondary mx-2">
+                      <i className="bi bi-github"></i>
+                    </a>
+                    <a href="#" className="text-primary mx-2">
+                      <i className="bi bi-linkedin"></i>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -315,7 +363,7 @@ function App() {
         <footer className="py-5">
           <div className="row">
             <div className="col-6 col-md-2 mb-3">
-              <h5>Section</h5>
+              <h5>Explore</h5>
               <ul className="nav flex-column">
                 <li className="nav-item mb-2">
                   <a href="#" className="nav-link p-0 text-body-secondary">
@@ -346,62 +394,52 @@ function App() {
             </div>
 
             <div className="col-6 col-md-2 mb-3">
-              <h5>Section</h5>
+              <h5>Resources</h5>
               <ul className="nav flex-column">
                 <li className="nav-item mb-2">
                   <a href="#" className="nav-link p-0 text-body-secondary">
-                    Home
+                    Documentation
                   </a>
                 </li>
                 <li className="nav-item mb-2">
                   <a href="#" className="nav-link p-0 text-body-secondary">
-                    Features
+                    Tutorials
                   </a>
                 </li>
                 <li className="nav-item mb-2">
                   <a href="#" className="nav-link p-0 text-body-secondary">
-                    Pricing
+                    Blog
                   </a>
                 </li>
                 <li className="nav-item mb-2">
                   <a href="#" className="nav-link p-0 text-body-secondary">
-                    FAQs
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">
-                    About
+                    Community
                   </a>
                 </li>
               </ul>
             </div>
 
             <div className="col-6 col-md-2 mb-3">
-              <h5>Section</h5>
+              <h5>Company</h5>
               <ul className="nav flex-column">
                 <li className="nav-item mb-2">
                   <a href="#" className="nav-link p-0 text-body-secondary">
-                    Home
+                    About Us
                   </a>
                 </li>
                 <li className="nav-item mb-2">
                   <a href="#" className="nav-link p-0 text-body-secondary">
-                    Features
+                    Careers
                   </a>
                 </li>
                 <li className="nav-item mb-2">
                   <a href="#" className="nav-link p-0 text-body-secondary">
-                    Pricing
+                    Press
                   </a>
                 </li>
                 <li className="nav-item mb-2">
                   <a href="#" className="nav-link p-0 text-body-secondary">
-                    FAQs
-                  </a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">
-                    About
+                    Contact
                   </a>
                 </li>
               </ul>
@@ -409,10 +447,13 @@ function App() {
 
             <div className="col-md-5 offset-md-1 mb-3">
               <form>
-                <h5>Subscribe to our newsletter</h5>
-                <p>Monthly digest of what's new and exciting from us.</p>
+                <h5>Stay in the Loop</h5>
+                <p>
+                  Get exclusive updates, tips, and insights delivered straight
+                  to your inbox. No spam, we promise!
+                </p>
                 <div className="d-flex flex-column flex-sm-row w-100 gap-2">
-                  <label for="newsletter1" className="visually-hidden">
+                  <label htmlFor="newsletter1" className="visually-hidden">
                     Email address
                   </label>
                   <input
@@ -430,31 +471,7 @@ function App() {
           </div>
 
           <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-            <p>&copy; 2025 Company, Inc. All rights reserved.</p>
-            <ul className="list-unstyled d-flex">
-              <li className="ms-3">
-                <a
-                  className="link-body-emphasis"
-                  href="#"
-                  aria-label="Instagram"
-                >
-                  <svg className="bi" width="24" height="24">
-                    <use xlink:href="#instagram" />
-                  </svg>
-                </a>
-              </li>
-              <li className="ms-3">
-                <a
-                  className="link-body-emphasis"
-                  href="#"
-                  aria-label="Facebook"
-                >
-                  <svg className="bi" width="24" height="24" aria-hidden="true">
-                    <use xlink:href="#facebook" />
-                  </svg>
-                </a>
-              </li>
-            </ul>
+            <p>&copy; 2025 BookStore. Web by Dimas Aji Nugroho.</p>
           </div>
         </footer>
       </div>
